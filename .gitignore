@@ -1,0 +1,56 @@
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Env files ===
+.env
+.env.*
+!.env.example
+
+# === Node ===
+node_modules/
+*/node_modules/
+npm-shrinkwrap.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# === Build outputs ===
+dist/
+build/
+out/
+coverage/
+.tmp/
+.temp/
+
+# Vite / React build
+client/dist/
+client/build/
+
+# === Runtime / cache ===
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# === Testing ===
+cypress/videos/
+cypress/screenshots/
+
+# === Misc ===
+*.tgz
+*.bak
